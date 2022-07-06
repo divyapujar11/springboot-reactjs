@@ -1,1 +1,10 @@
 Spring Boot and ReactJS
+
+what is reactJS?
+* it is javaScript library used to build simple page application
+* reactJS is declarative, efficient, and flexible Javascript library for building reusable UI components
+* reusable UI components - reactJS is basically based on components, like tags<> in html, we reuse tags with different purpose.
+* AJAX - * it is Asynchronous Javascript And Xml
+	 * it is not a programming language
+	 * it updates a web pages whithout reloading the page
+	 * request and recieve data from server after the page has reloaded and can be done in background. 
