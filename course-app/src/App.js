@@ -4,6 +4,8 @@ import { Button } from 'reactstrap';
 import {ToastContainer, toast} from 'react-toastify';
 import Home from './components/Home';
 import Course from './components/Course' 
+import Allcourses from './components/Allcourses';
+
 
 function App() {
   const btnhandle = () =>{
@@ -21,7 +23,7 @@ function App() {
     <div>
       <ToastContainer/>
       <Home/>
-      <Course />
+      <Allcourses />
     </div>
   );
 }
