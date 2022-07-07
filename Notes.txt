@@ -75,6 +75,29 @@ function App(){
    );
 }
 
+** create to pop a toast/message when click on button
+
+function App() {
+// function to work when clicked on button
+  const btnhandle = () =>{
+//pop success msg whenn clicked on button
+    toast("my first toast meassage");
+    toast.success("DONE",{
+      position:'top-center'
+    })
+//pop error message when clicked on button
+    toast.error("SOMETHING IS WRONG",{
+      position:'bottom-left'
+    })
+  }
+  return (
+    <div>
+      <ToastContainer/>
+      <h1> this is button components</h1>
+      <Button color='success' outline onClick={btnhandle}>First React Button</Button>
+    </div>
+  );
+}
 
 ----------------------------------------------------------------
 npm start
@@ -101,3 +124,13 @@ index.js -->
 app.js --> import {ToastContainer, toast} from react-toastify;
 1:07:00
 
+lib to call server - axios
+* npm install axios 
+
+1:11:28 
+
+components-->home.js (1:12:28)
+jumbotron,
+1:14:00
+1:15:00
+1:57:19
