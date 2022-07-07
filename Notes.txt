@@ -93,3 +93,11 @@ index.js ->import "bootstrap/dist/css/bootstrap.min.css"
 to use button component:
 import {Button} from "reactstrap"
 
+react toastify -- it is used to send success card
+npm install react-toastify
+
+index.js --> 
+
+app.js --> import {ToastContainer, toast} from react-toastify;
+1:07:00
+
