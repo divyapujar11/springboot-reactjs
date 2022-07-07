@@ -5,6 +5,8 @@ software required:
 * vs code
 
 for more -- reactjs.org/tutorial
+
+JSX -- JavaScript XML
  
 what is reactJS?
 * it is javaScript library used to build simple page application
@@ -18,38 +20,71 @@ what is reactJS?
 
 Components: 
 * component acts like function in reactjs.
-* 
+* components are independent and reusable bits of code
+* they come in two: functional component and class component
 
 functional component:
+* function component is declared using function keyword
+* it return HTML
+* function FuncName(){
+	return(<HTMLdata>);
+}
 
-render:
+class component:
+* class component is declared using class keyword and it extends React.Component
+* it returns HTML and compulsory it calls render() method for returning
+* class ClassName extends React.Component{
+	render(){
+	  return(<Html data>);
+	}
+}
+
+render():
+* render() method work like display function
+* it displays specific html code inside the html elements
+* it can read props and state and return jsx code to the root component of our app but it cannot change the values of props and state
+
+props:
+* props stands for properties
+* they are used as arguments passed into reactjs compponents
+
+states:
+
+---------------------------------------------------------------
 
 * App component runs the main page of the application
 * app() is a functional component where we can write logic of the web page
 * react should be imported in very component: import React from "react";
 
+**How to create component and import in App Component--
 inside a component:
 import React from "react"
-function componentname(){
+function Componentname(){
 return();
 }
 export default componentname;
 
 and import it app component
 
-<hr/> - it is a horizontal line
-<div style={{background:"yellow", padding:20}} - create object(div) inside an object(style)
+inside App component:
+import Componentname from '<ComponentAddress>';
 
-props:
-* object de-structuring
-* works like parameter for function(component)
-
-states:
-
+function App(){
+   return(
+     <HTML data>
+   );
+}
 
 
 ----------------------------------------------------------------
 npm start
+
+<hr/> - it is a horizontal line
+<div style={{background:"yellow", padding:20}} - create object(div) inside an object(style)
+
+-----------------------------------------------------------------
+
+
 
 (58:35)reactstrap library--
 npm install bootstrap reactstrap
