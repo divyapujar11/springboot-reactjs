@@ -156,3 +156,10 @@ jumbotron,
 
 react router dom:
 npm install react-router-dom
+
+axios install:
+npm install axios 
+
+2:30:00..-->> 31:35
+
+2:34:59
