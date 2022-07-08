@@ -60,10 +60,15 @@ fragment:(<frahgment>)
 
 className:
 
+Toastcontainer:
+
+router: used for moving one app to another app
 
 using container we can make components center easily
 1:40
 
+use navbartoggler that grid
+col>>md-- medium screen
 
 
 ---------------------------------------------------------------
@@ -147,6 +152,7 @@ lib to call server - axios
 
 components-->home.js (1:12:28)
 jumbotron,
-1:14:00
-1:15:00
-1:57:19
+
+
+react router dom:
+npm install react-router-dom
