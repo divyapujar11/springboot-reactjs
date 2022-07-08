@@ -4,20 +4,22 @@ import {Card, CardBody, CardSubtitle, CardTitle, CardText, CardFooter, Button, C
 function Course({course}){
     return(
     <Card>
-      <CardBody>
+      <CardBody className="text-center">
         <CardSubtitle tag="h5">
-          {course}
+          {course.title}
         </CardSubtitle>
         <CardText>
           {course.description}
         </CardText>
-        
-        <Button color="danger">
+      <div >
+        <Button color="danger ml-3">
           Delete
         </Button>
-        <Button color="warning ml-3">
+        <Button color="warning" style={{margin:3}}>
           Update
         </Button>
+        
+      </div>  
         
       </CardBody>
     </Card>
