@@ -1,0 +1,22 @@
+---------:Spring Boot:----------
+
+backend flow:
+Web Request -> Controller(Presentation layer){accept the request and forword}  <--->  Service Layer { service to controller | bussiness logic } <----> Dao/Repository <----> database
+
+api urls for course app:
+Method 			Api url			
+GET			/courses		
+GET			/courses/{courseId}
+POST			/courses
+PUT			/courses
+DELETE			/courses/{courseId}
+
+tomcat server is already configured in spring
+
+Controller vs RestController
+* rest controller send in json form 
+
+@Autowired -- creates a object of a interface or class declared in controller class and injects the object in declared variable using spring framework
+
+5:37 -- sping jpa
+	
