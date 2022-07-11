@@ -1,7 +1,12 @@
 package com.courseapp.courseapp.model;
 
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document("courseapp")
 public class Course {
 	
+	@Id
 	private long id;
 	private String title;
 	private String description;
